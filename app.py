@@ -25,22 +25,25 @@ app = dash.Dash(__name__)
 app.layout = html.Div([
     html.H1("Dashboard de Ventas de Joyería"),
 
-    # Line chart
+    # Line chart with description
     html.Div([
         html.H2("Línea de Tiempo de Ventas (por Año, Mes y Semana)"),
-        dcc.Graph(id='line-chart')
+        dcc.Graph(id='line-chart'),
+        html.P("Este gráfico muestra la cantidad de ítems vendidos por semana, agrupados por año y mes."),
     ]),
 
-    # Pie chart
+    # Pie chart with description
     html.Div([
         html.H2("Distribución por Categoría"),
-        dcc.Graph(id='pie-chart')
+        dcc.Graph(id='pie-chart'),
+        html.P("Este gráfico de pastel muestra la distribución de ventas por categoría de producto."),
     ]),
 
-    # Bar chart
+    # Bar chart with description
     html.Div([
         html.H2("Ventas por Tipo de Producto"),
-        dcc.Graph(id='bar-chart')
+        dcc.Graph(id='bar-chart'),
+        html.P("Este gráfico de barras muestra las ventas por tipo de producto, indicando la cantidad de ítems vendidos en cada categoría."),
     ]),
 ])
 
