@@ -1,6 +1,5 @@
 # JOyeria Dashboard 
 
-## About this app
 
 ## How to run this app
 
