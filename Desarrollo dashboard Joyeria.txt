@@ -1,0 +1,18 @@
+==================================================
+                    Dashboard Joyeria 
+==================================================
+
+-----------------------------------------------
+                     Desarrollo
+-----------------------------------------------
+
+INTEGRANTE : JERSON ESTEBAN MARIN NICOLALDE
+
+
+
+El siguiente dashboard ha sido realizado en base a una base de datos de una joyeria ubicada en la ciudad de Quito la cual ha sido procesada como parte de una de las areas 
+de mi trabajo.
+
+
+En el dataset limpio se pudo obtener un histórico de ventas por material y tipo de joya. En base a estos datos se realizaron los gráficos correspondientes para lograr identificar 
+tendencias, proporciones y distribución de ventas en una linea de tiempo.
